@@ -76,7 +76,7 @@ Each chapter introduces a problem that motivates the need for a particular machi
 - **Graph Theory**
 - **Combinatorics**
 - **Set Theory**
-- **Algorithms**: K-means Clustering, DBSCAN, Graph-based Algorithms
+- **Algorithms**: K-means Clustering, DBSCAN, Graph-based Algorithms, K-Nearest Neighbors (KNN)
 - **Challenge Problem**: Perform community detection in a social network dataset using graph theory.
 
 ### Chapter 8: Information Theory
@@ -86,7 +86,7 @@ Each chapter introduces a problem that motivates the need for a particular machi
 - **Entropy and Information Gain**
 - **KL-Divergence**
 - **Mutual Information**
-- **Algorithms**: Decision Trees, Random Forests
+- **Algorithms**: Decision Trees, Random Forests, Gradient Boosting Machines (GBM), Support Vector Machines (SVM)
 - **Challenge Problem**: Use information theory to select features and build a decision tree for text classification.
 
 ### Chapter 9: Numerical Methods
