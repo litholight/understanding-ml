@@ -1,4 +1,4 @@
-# Book Overview: Understanding Machine Learning: Concepts, Algorithms, and Mathematics
+# Book Overview: Understanding Machine Learning: Concepts, Algorithms, and Applications
 
 ## Purpose of the Book
 The purpose of this book is to provide a deep understanding of machine learning concepts, algorithms, and the mathematics behind them. The focus is on problem-solving and conceptual clarity rather than technical implementation. The book aims to explain how machine learning addresses real-world problems, emphasizing the inadequacy of traditional methods and the necessity for advanced techniques.
@@ -99,15 +99,29 @@ Each chapter introduces a problem that motivates the need for a particular machi
 - **Algorithms**: Newton's Method, Bisection Method
 - **Challenge Problem**: Implement numerical methods to solve a given machine learning problem.
 
-### Chapter 10: Advanced Topics and Emerging Trends
+### Chapter 10: Reinforcement Learning
 - **Introduction and Motivating Problem**
-  - **Problem Statement**: Exploring cutting-edge applications and future trends in machine learning.
-  - **Solution Introduction**: Deep learning, reinforcement learning, and generative models.
-- **Deep Learning**
-- **Reinforcement Learning**
-- **Generative Models**
-- **Algorithms**: Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Q-Learning, Generative Adversarial Networks (GANs)
-- **Challenge Problem**: Explore an advanced topic of interest and apply it to a practical problem.
+  - **Problem Statement**: Learning to make decisions in dynamic environments.
+  - **Solution Introduction**: Q-learning and Deep Q-Networks (DQN) for game playing and robotic control.
+- **Key Concepts**: Agents, Environment, Reward Signal, Policy, Value Function
+- **Algorithms**: Q-learning, Deep Q-Networks (DQN), Policy Gradient Methods
+- **Challenge Problem**: Implement a reinforcement learning algorithm to solve a decision-making problem.
+
+### Chapter 11: Deep Learning
+- **Introduction and Motivating Problem**
+  - **Problem Statement**: Handling complex data structures such as images and text.
+  - **Solution Introduction**: Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) for image and sequence data.
+- **Key Concepts**: Layers, Activation Functions, Backpropagation
+- **Algorithms**: CNNs, RNNs, Long Short-Term Memory (LSTM) Networks, Transformers
+- **Challenge Problem**: Build and train a deep learning model for image classification or text generation.
+
+### Chapter 12: Generative Models
+- **Introduction and Motivating Problem**
+  - **Problem Statement**: Generating new data that resembles existing data.
+  - **Solution Introduction**: Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs) for data generation.
+- **Key Concepts**: Generator and Discriminator, Latent Space
+- **Algorithms**: GANs, VAEs
+- **Challenge Problem**: Implement a generative model to create new images or other data types.
 
 ## Conclusion
 - **Recap of Key Concepts**
@@ -131,3 +145,6 @@ Each chapter introduces a problem that motivates the need for a particular machi
 | **Discrete Mathematics**   | 7                             | Network analysis for social media                    |
 | **Information Theory**     | 8                             | Feature selection for text classification            |
 | **Numerical Methods**      | 9                             | Numerical solutions for complex algorithms           |
+| **Reinforcement Learning** | 10                            | Learning to make decisions in dynamic environments   |
+| **Deep Learning**          | 11                            | Handling complex data structures (images and text)   |
+| **Generative Models**      | 12                            | Generating new data resembling existing data         |
